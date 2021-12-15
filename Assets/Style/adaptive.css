@@ -1,0 +1,540 @@
+@media screen and (max-width: 1920px){
+    header, .main, .about, .team, .portfolio, .footer{
+        width: 229.4ex !important;
+    }
+    .container{
+        width: 1320px !important;
+    }
+    .list{
+        width: 450px !important;
+    }
+    .link a{
+        font-size: 23px;
+    }
+    .about__h2{
+        font-size: 35px;
+    }
+    .about__text{
+        margin: 0 350px 0 0;
+        font-size: 18px;
+    }
+    .team__h2{
+        font-size: 35px;
+    }
+    .team__content{
+        font-size: 18px;
+    }
+    .team__text{
+        margin: 70px 225px 0 0;
+    }
+    .team .slide{
+        display: flex;
+        justify-content: space-around;
+    }
+    .team__content span{
+        font-size: 22px;
+    }
+    .portfolio__h2{
+        font-size: 35px;
+    }
+    .portfolio__content{
+        justify-content: center;
+    }
+    .footer__text{
+        width: 290px;
+        font-size: 19px;
+    }
+    .Alux{
+        width: 1230px;
+    }
+    .Alux img{
+        width: 100px;
+        height: 40px;
+    }
+    .alux__text{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1600px) {
+    header, .main, .about, .team, .portfolio, .footer{
+        width: 100em !important;
+    }
+    .slick-list{
+        height: 570px !important;
+    }
+    .popup__content{
+        width: 90%;
+    }
+    .popup__img{
+        width: 60%;
+    }
+    .rev__slider .slick-list{
+        margin-top: 160px;
+    }
+    .Close{
+        width: 40px;
+        height: 40px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .container{
+        width: 1120px !important;
+    }
+    .slick-list{
+        height: 540px !important;
+    }
+    .about__h2, .team__h2, .portfolio__h2{
+        font-size: 32px;
+    }
+    .list{
+        width: 350px;
+
+    }
+    .link a{
+        font-size: 16px;
+    }
+    .about__text{
+        width: 448px;
+        margin: 0 110px 0 0;
+    }
+    .team__text{
+        width: 574px;
+        margin: 70px 85px 0 0;
+    }
+    .team__img {
+        width: 420px;
+        height: 510px;
+    }
+    .team__rectangle{
+        width: 393px;
+        height: 495px;
+    }
+    .team__img img {
+        width: 400px;
+        height: 490px;
+    }
+    .footer__text{
+        width: 267px;
+        font-size: 17px;
+    }
+    .Alux{
+        width: 1038px;
+    }
+    .rev__slider .slick-list{
+        margin-top: 230px;
+    }
+    .Close{
+        width: 35px;
+        height: 35px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .container{
+        width: 1000px !important;
+    }
+    .main{
+        height: 590px;
+    }
+    .list{
+        width: 360px !important;
+    }
+    .about{
+        height: 640px;
+    }
+    .about__text {
+        width: 390px;
+        margin: 0px 110px 0 0;
+    }
+    .team__img {
+        width: 355px;
+        height: 470px;
+    }
+    .team__img img {
+        width: 335px;
+        height: 448px;
+    }
+    .team__rectangle {
+        width: 325px;
+        height: 450px;    
+        margin-top: -430px;
+    }
+    .team__text {
+        width: 524px;
+        margin: 70px 90px 0 0;
+    }
+    .team__h2{
+        font-size: 30px;
+    }
+    .team__text p {
+        font-size: 13px;
+    }
+    .team__text span{
+        font-size: 19px;
+    }
+    .portfolio__content img {
+        width: 330px;
+        height: 250px;
+    }
+    .portfolio__content img:nth-child(3) {
+        height: 330px;
+    }
+
+    .Alux{
+        width: 920px;
+    }
+    .Close{
+        width: 25px;
+        height: 25px;
+    }
+    .rev__slider .slick-list{
+        margin-top: 300px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    header, .main, .about, .team, .portfolio, .footer{
+        width: 145ex !important;
+    }
+    .main{
+        height: 555px;
+    }
+    .about__text{
+        font-size: 16px;
+    }
+    .about__img {
+        width: 470px;
+        height: 340px;
+    }
+    .about__img img {
+        width: 450px;
+        height: 320px;
+        position: sticky;
+        z-index: 3;
+    }
+    .about__rectangle {
+        width: 465px;
+        height: 310px;
+        margin-left: -439px;
+    }
+    .team__text{
+        width: 500px;
+        font-size: 13px !important;
+    }
+    .team__img {
+        width: 335px;
+        height: 445px;
+    }
+    .team__img img {
+        width: 320px;
+        height: 426px;
+    }
+    .team__rectangle {
+        width: 305px;
+        height: 425px;
+        margin-top: -405px;
+    }
+    .portfolio__content img{
+        width: 315px;
+        height: 240px;
+    }
+    .portfolio__content .slide:nth-child(3) img{
+        width: 310px;
+    }
+    .footer__text {
+        width: 225px;
+        font-size: 14px;
+    }
+    .Alux{
+        width: 850px;
+    }
+    .alux__text{
+        font-size: 15px;
+    }
+    .rev__slider .slick-list{
+        margin-top: 220px;
+    }
+    .popup__img{
+        width: 60% !important;
+    }
+    .popup__text{
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    header, .main, .about, .team, .portfolio, .footer{
+        width: 125ex !important;
+    }
+    .container{
+        width: 900px !important;
+    }
+    .main{
+        height: 475px !important;
+    }
+    .about__text {
+        width: 350px;
+        margin: 0px 100px 0 0;
+        font-size: 16px;
+    }
+    .about__img {
+        width: 460px;
+        height: 290px;
+    }
+    .about__img img {
+        width: 450px;
+        height: 270px;
+    }
+    .about__rectangle {
+        width: 440px;
+        height: 260px;
+        margin-left: -414px;
+        margin-top: 30px;
+    }
+    .team__text {
+        width: 460px !important;
+        font-size: 12px !important;
+        margin: 70px 75px 0 0;
+    }
+    .team__text span{
+        font-size: 16px;
+    }
+    .team__text p{
+        font-size: 12px;
+    }
+    .team__img{
+        width: 320px;
+        height: 425px;
+    }
+    .team__img img {
+        width: 305px;
+        height: 405px;
+    }
+    .team__rectangle {
+        width: 295px;
+        height: 400px;
+        margin-top: -380px;
+    }
+    .portfolio__content img {
+        width: 295px;
+        height: 240px;
+    }
+    .footer__text{
+        width: 240px;
+        font-size: 15px;
+    }
+    .Alux{
+        width: 820px;
+    }
+    .Alux img{
+        width: 92px;
+        height: 34px;
+    }
+    .alux__text{
+        font-size: 15px;
+    }
+    .rev__slider .slick-list{
+        margin-top: 200px;
+    }
+    .popup__text{
+        width: 55%;
+        font-size: 12px;
+    }
+    .rev__slider .slick-arrow{
+        width: 35px !important;
+        height: 35px !important;
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 991px) {
+    header, .main, .about, .team, .portfolio, .footer{
+        width: 120ex !important;
+    }
+    .menu{
+        visibility: visible;
+    }
+    .main{
+        height: 455px !important;
+    }
+    .main .container{
+        justify-content: center;
+    }
+    .list{
+        visibility: hidden;
+    }
+    .open__btn{
+        visibility: visible;
+    }
+    .about{
+        height: 590px;
+    }
+    .about .container, .team .container, .portfolio .container{
+        align-items: center;
+        justify-content: space-around;
+    }
+    .about .container .about__content, .team .container .team__content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about__content, .team__content{
+        height: 80%;
+    }
+    .about__text{
+        width: 100%;
+        text-align: left;
+        margin: 0 0 0 0;
+    }
+    .team__block{
+        flex-direction: column;
+        align-items: center;
+    }
+    .team{
+        height: 1230px;
+    }
+    .slick-list{
+        height: 100% !important;
+    }
+    .team__text{
+        width: 100% !important;
+        text-align: left;
+        margin: 0 0 0 0;
+    }
+    .team__text p{
+        font-size: 15px;
+    }
+    .team__text span{
+        font-size: 20px;
+    }
+    .team__img{
+        width: 380px;
+        height: 500px;
+    }
+    .team__img img{
+        width: 360px;
+        height: 478px;
+    }
+    .team__rectangle{
+        width: 350px;
+        height: 475px;
+        margin-top: -455px;
+    }
+    .team__h2{
+        margin: 0 0 0 0;
+    }
+    .portfolio{
+        height: 1325px !important;
+    }
+    .portfolio__content{
+        justify-content: space-around;
+    }
+    .Alux{
+        width: 640px;
+    }
+    .Close{
+        width: 25px;
+        height: 25px;
+    }
+    .rev__slider .slick-list{
+        margin-top: 0;
+    }
+    .popup__img{
+        width: 40%;
+    }
+    .popup__img img{
+        width: 335px;
+        height: 252px;
+    }
+    .popup__text{
+        width: 75%;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 768px) {
+    header, .main, .about, .team, .portfolio, .footer{
+        width: 100ex !important;
+    }
+    .main{
+        height: 355px !important;
+    }
+
+    .about {
+        height: 650px;
+    }
+
+    .team {
+        height: 1220px;
+    }
+    .team .container .team__content .slide{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .portfolio{
+        height: 370px !important;
+    }
+    .portfolio .container{
+        height: 370px !important;
+    }
+    .portfolio .slick-list{
+        height: 100% !important;
+    }
+    .footer__text{
+        width: 200px;
+        font-size: 13px;
+    }
+    .Alux{
+        width: 450px;
+    }
+    .alux__text{
+        font-size: 13px;
+    }
+    .popup__content{
+        flex-direction: column;
+        align-items: center;    
+    }
+    .rev__slider .slick-list{
+        height: 50% !important;
+        margin-top: 265px;
+        padding: 0 130px !important;
+    }
+    .slick-arrow{
+        display: none !important;
+    }
+    .popup__img {
+        height: 40% !important;
+    }
+    .popup__text {
+        width: 75%;
+        height: 30% !important;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 640px){
+    header, .main, .about, .team, .portfolio, .footer{
+        width: 100ex !important;
+    }
+    header .container{
+        justify-content: center;
+    }
+    .main{
+        height: 297px !important;
+    }
+}
+
+@media screen and (max-width: 576px){
+    header, .main, .about, .team, .portfolio, .footer{
+        width: 107.5ex !important;
+    }
+    .about__text{
+        width: 500px;
+    }
+    .team__text{
+        width: 550px !important;
+    }
+    .portfolio .slick-slide{
+        width: 300px !important;
+    }
+    .footer__content{
+        flex-direction: column;
+    }
+}

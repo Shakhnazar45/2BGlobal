@@ -60,17 +60,125 @@ $(document).ready(function(){
     };
     $(document).ready(main);
 });
+$(document).ready(function(){
+    var port = function(){
+        $('.portfolio .img1 img').click(function(){
+            $('.portfolio .img1 .img__text').addClass('Opened');
+            $('.portfolio .img2 .img__text').removeClass('Opened');
+            $('.portfolio .img3 .img__text').removeClass('Opened');
+            $('.portfolio .img4 .img__text').removeClass('Opened');
+            $('.portfolio .img5 .img__text').removeClass('Opened');
+            $('.portfolio .img6 .img__text').removeClass('Opened');
+            $('.portfolio .img7 .img__text').removeClass('Opened');
+            $('.portfolio .img8 .img__text').removeClass('Opened');
+            $('.portfolio .img9 .img__text').removeClass('Opened');
+        });
+        $('.portfolio .img2 img').click(function(){
+            $('.portfolio .img2 .img__text').addClass('Opened');
+            $('.portfolio .img1 .img__text').removeClass('Opened');
+            $('.portfolio .img3 .img__text').removeClass('Opened');
+            $('.portfolio .img4 .img__text').removeClass('Opened');
+            $('.portfolio .img5 .img__text').removeClass('Opened');
+            $('.portfolio .img6 .img__text').removeClass('Opened');
+            $('.portfolio .img7 .img__text').removeClass('Opened');
+            $('.portfolio .img8 .img__text').removeClass('Opened');
+            $('.portfolio .img9 .img__text').removeClass('Opened');
+        });
+        $('.portfolio .img3 img').click(function(){
+            $('.portfolio .img3 .img__text').addClass('Opened');
+            $('.portfolio .img2 .img__text').removeClass('Opened');
+            $('.portfolio .img1 .img__text').removeClass('Opened');
+            $('.portfolio .img4 .img__text').removeClass('Opened');
+            $('.portfolio .img5 .img__text').removeClass('Opened');
+            $('.portfolio .img6 .img__text').removeClass('Opened');
+            $('.portfolio .img7 .img__text').removeClass('Opened');
+            $('.portfolio .img8 .img__text').removeClass('Opened');
+            $('.portfolio .img9 .img__text').removeClass('Opened');
+        });
+        $('.portfolio .img4 img').click(function(){
+            $('.portfolio .img4 .img__text').addClass('Opened');
+            $('.portfolio .img2 .img__text').removeClass('Opened');
+            $('.portfolio .img3 .img__text').removeClass('Opened');
+            $('.portfolio .img1 .img__text').removeClass('Opened');
+            $('.portfolio .img5 .img__text').removeClass('Opened');
+            $('.portfolio .img6 .img__text').removeClass('Opened');
+            $('.portfolio .img7 .img__text').removeClass('Opened');
+            $('.portfolio .img8 .img__text').removeClass('Opened');
+            $('.portfolio .img9 .img__text').removeClass('Opened');
+        });
+        $('.portfolio .img5 img').click(function(){
+            $('.portfolio .img5 .img__text').addClass('Opened');
+            $('.portfolio .img2 .img__text').removeClass('Opened');
+            $('.portfolio .img3 .img__text').removeClass('Opened');
+            $('.portfolio .img4 .img__text').removeClass('Opened');
+            $('.portfolio .img1 .img__text').removeClass('Opened');
+            $('.portfolio .img6 .img__text').removeClass('Opened');
+            $('.portfolio .img7 .img__text').removeClass('Opened');
+            $('.portfolio .img8 .img__text').removeClass('Opened');
+            $('.portfolio .img9 .img__text').removeClass('Opened');
+        });
+        $('.portfolio .img6 img').click(function(){
+            $('.portfolio .img6 .img__text').addClass('Opened');
+            $('.portfolio .img2 .img__text').removeClass('Opened');
+            $('.portfolio .img3 .img__text').removeClass('Opened');
+            $('.portfolio .img4 .img__text').removeClass('Opened');
+            $('.portfolio .img5 .img__text').removeClass('Opened');
+            $('.portfolio .img1 .img__text').removeClass('Opened');
+            $('.portfolio .img7 .img__text').removeClass('Opened');
+            $('.portfolio .img8 .img__text').removeClass('Opened');
+            $('.portfolio .img9 .img__text').removeClass('Opened');
+        });
+        $('.portfolio .img7 img').click(function(){
+            $('.portfolio .img7 .img__text').addClass('Opened');
+            $('.portfolio .img2 .img__text').removeClass('Opened');
+            $('.portfolio .img3 .img__text').removeClass('Opened');
+            $('.portfolio .img4 .img__text').removeClass('Opened');
+            $('.portfolio .img5 .img__text').removeClass('Opened');
+            $('.portfolio .img6 .img__text').removeClass('Opened');
+            $('.portfolio .img1 .img__text').removeClass('Opened');
+            $('.portfolio .img8 .img__text').removeClass('Opened');
+            $('.portfolio .img9 .img__text').removeClass('Opened');
+        });
+        $('.portfolio .img8 img').click(function(){
+            $('.portfolio .img8 .img__text').addClass('Opened');
+            $('.portfolio .img2 .img__text').removeClass('Opened');
+            $('.portfolio .img3 .img__text').removeClass('Opened');
+            $('.portfolio .img4 .img__text').removeClass('Opened');
+            $('.portfolio .img5 .img__text').removeClass('Opened');
+            $('.portfolio .img6 .img__text').removeClass('Opened');
+            $('.portfolio .img7 .img__text').removeClass('Opened');
+            $('.portfolio .img1 .img__text').removeClass('Opened');
+            $('.portfolio .img9 .img__text').removeClass('Opened');
+        });
+        $('.portfolio .img9 img').click(function(){
+            $('.portfolio .img9 .img__text').addClass('Opened');
+            $('.portfolio .img2 .img__text').removeClass('Opened');
+            $('.portfolio .img3 .img__text').removeClass('Opened');
+            $('.portfolio .img4 .img__text').removeClass('Opened');
+            $('.portfolio .img5 .img__text').removeClass('Opened');
+            $('.portfolio .img6 .img__text').removeClass('Opened');
+            $('.portfolio .img7 .img__text').removeClass('Opened');
+            $('.portfolio .img8 .img__text').removeClass('Opened');
+            $('.portfolio .img1 .img__text').removeClass('Opened');
+        });
+        $('.portfolio .img__text .img__btn').click(function(){
+            $('.portfolio .img__text').removeClass('Opened')
+        });
+    };
+    $(document).ready(port)
+});
 $(function(){
     $('.rev-slider').slick({
         infinite: true,
         slidesToShow: 1,
         SlidesToScroll: 1,
+        adaptiveHeight: true,
         arrows: false,
         dots: false,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 8000,
         centerMode: true,
-        centerPadding: '-160px',
+        centerPadding: '-20px',
         Speed: 5000,
     });
 });
@@ -79,31 +187,43 @@ $(document).ready(function(){
     if($(window).width() < 769){
         $('.rev_slider').slick({
             infinite: true,
-            slidesToShow: 1,
+            slidesToShow: 1 ,
             SlidesToScroll: 1,
+            adaptiveHeight: true,
             arrows: false,
             dots: false,
-            autoplay: true,
+            autoplay: false,
             autoplaySpeed: 3000,
             centerMode: true,
             centerPadding: '120px',
             Speed: 5000,
-            responsive:[{
-                breakpoint: 576,
-                settings: {
-                    slidesToShow: 4,
-                    slidesToScroll: 4,
-                    infinite: true,
-                    centerMode: true,
-                    centerPadding: '70px',
-                }
-            }]
+            responsive: [
+                {
+                    breakpoint: 576,
+                    settings:{
+                        infinite: true,
+                        slidesToShow: 1 ,
+                        SlidesToScroll: 1,
+                        adaptiveHeight: true,
+                        arrows: false,
+                        dots: false,
+                        autoplay: false,
+                        autoplaySpeed: 3000,
+                        centerMode: true,
+                        centerPadding: '50px',
+                        Speed: 5000,
+                    }
+                },
+            ]
         });
     }
 });
 
 $(document).ready(function(){
     $('.main .container .main__content button').click(function(){
+        $('.popup').addClass('show');
+    });
+    $('.portfolio .container .portfolio__content .img__block .img__btn').click(function(){
         $('.popup').addClass('show');
     });
     $('.popup .Close').click(function(){
@@ -128,6 +248,6 @@ $(function(){
             settings:{
                 arrows: false,
             }
-        }]
+        },]
     });
 });

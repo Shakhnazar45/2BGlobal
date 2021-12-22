@@ -1,4 +1,7 @@
 @media screen and (max-width: 1920px){
+    html{
+        width: 100% !important;
+    }
     header, .main, .about, .team, .portfolio, .footer{
         width: 229.4ex !important;
     }
@@ -23,6 +26,12 @@
     }
     .team__content{
         font-size: 18px;
+    }
+    .team__block{
+        height: 570px !important;
+    }
+    .rev-slider .slick-list{
+        height: 570px;
     }
     .team__text{
         margin: 70px 225px 0 0;
@@ -54,8 +63,14 @@
     .alux__text{
         font-size: 20px;
     }
+    .popup__img{
+        width: 50%;
+    }
 }
 @media screen and (max-width: 1600px) {
+    html{
+        width: 100% !important;
+    }
     header, .main, .about, .team, .portfolio, .footer{
         width: 100em !important;
     }
@@ -69,7 +84,7 @@
         width: 60%;
     }
     .rev__slider .slick-list{
-        margin-top: 160px;
+        margin-top: 50px;
     }
     .Close{
         width: 40px;
@@ -77,6 +92,12 @@
     }
 }
 @media screen and (max-width: 1440px) {
+    html{
+        width: 191ex !important;
+    }
+    body{
+        width: 199ex;
+    }
     .container{
         width: 1120px !important;
     }
@@ -121,7 +142,7 @@
         width: 1038px;
     }
     .rev__slider .slick-list{
-        margin-top: 230px;
+        margin-top: 20px;
     }
     .Close{
         width: 35px;
@@ -129,6 +150,9 @@
     }
 }
 @media screen and (max-width: 1280px) {
+    body{
+        width: 200ex;
+    }
     .container{
         width: 1000px !important;
     }
@@ -187,11 +211,21 @@
         height: 25px;
     }
     .rev__slider .slick-list{
-        margin-top: 300px;
+        margin-top: 0px;
+    }
+    .popup__img img{
+        width: 290px;
+        height: 240px;
     }
 }
 
 @media screen and (max-width: 1200px) {
+    html{
+        width: 145ex !important;
+    }
+    body{
+        width: 151ex !important;
+    }
     header, .main, .about, .team, .portfolio, .footer{
         width: 145ex !important;
     }
@@ -233,6 +267,9 @@
         height: 425px;
         margin-top: -405px;
     }
+    .portfolio{
+        height: 1665px;
+    }
     .portfolio__content img{
         width: 315px;
         height: 240px;
@@ -259,9 +296,23 @@
     .popup__text{
         width: 55%;
     }
+    .rev__slider .slick-arrow::before{
+        width: 25px !important;
+        height: 25px !important;
+    }
+    .slick-prev:before,
+    .slick-next:before{
+        font-size: 25px !important;
+    }
 }
 
 @media screen and (max-width: 1024px) {
+    html{
+        width: 125ex !important;
+    }
+    body{
+        width: 130ex !important;
+    }
     header, .main, .about, .team, .portfolio, .footer{
         width: 125ex !important;
     }
@@ -333,19 +384,40 @@
         font-size: 15px;
     }
     .rev__slider .slick-list{
-        margin-top: 200px;
+        margin-top: -40px;
+    }
+    .popup__content{
+        align-items: center;
+    }
+    .popup__img{
+        height: 300px;
+    }
+    .popup__img img{
+        width: 230px;
+        height: 200px;
     }
     .popup__text{
         width: 55%;
+        height: 300px;
         font-size: 12px;
     }
     .rev__slider .slick-arrow{
-        width: 35px !important;
-        height: 35px !important;
-        font-size: 35px;
+        width: 20px !important;
+        height: 20px !important;
+        font-size: 20px !important;
+    }
+    .slick-prev:before,
+    .slick-next:before{
+        font-size: 20px !important;
     }
 }
 @media screen and (max-width: 991px) {
+    html{
+        width: 120ex !important;
+    }
+    body{
+        width: 125ex !important;
+    }
     header, .main, .about, .team, .portfolio, .footer{
         width: 120ex !important;
     }
@@ -354,6 +426,12 @@
     }
     .main{
         height: 455px !important;
+    }
+    .main__content{
+        width: 720px;
+    }
+    .main__h2{
+        width: 420px;
     }
     .main .container{
         justify-content: center;
@@ -367,10 +445,9 @@
     .about{
         height: 590px;
     }
-    .about .container, .team .container, .portfolio .container{
-        align-items: center;
+    /* .about .container, .team .container, .portfolio .container{
         justify-content: space-around;
-    }
+    } */
     .about .container .about__content, .team .container .team__content{
         flex-direction: column;
         align-items: center;
@@ -396,7 +473,7 @@
     .team__text{
         width: 100% !important;
         text-align: left;
-        margin: 0 0 0 0;
+        margin: 40px 0 0 0;
     }
     .team__text p{
         font-size: 15px;
@@ -420,8 +497,11 @@
     .team__h2{
         margin: 0 0 0 0;
     }
+    .team__block{
+        height: 930px !important;
+    }
     .portfolio{
-        height: 1325px !important;
+        height: 1700px !important;
     }
     .portfolio__content{
         justify-content: space-around;
@@ -440,15 +520,40 @@
         width: 40%;
     }
     .popup__img img{
+        width: 230px !important;
+        height: 200px !important;
+    }
+    .popup__img img{
         width: 335px;
         height: 252px;
     }
     .popup__text{
-        width: 75%;
+        width: 40%;
         font-size: 10px;
+    }
+    .popup__text div{
+        width: 330px !important;
+    }
+    .popup__text p{
+        width: 100%;
+    }
+    #A-block{
+        top: 500px;
+    }
+    #T-block{
+        top: 1200px;
+    }
+    #P-block{
+        top: 2300px;
     }
 }
 @media screen and (max-width: 768px) {
+    html{
+        width: 99.61ex !important;
+    }
+    body{
+        width: 104ex !important;   
+    }
     header, .main, .about, .team, .portfolio, .footer{
         width: 100ex !important;
     }
@@ -468,9 +573,11 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-
+    .team__block{
+        height: 930px !important;
+    }
     .portfolio{
-        height: 370px !important;
+        height: 410px !important;
     }
     .portfolio .container{
         height: 370px !important;
@@ -489,13 +596,17 @@
         font-size: 13px;
     }
     .popup__content{
+        width: 100%;
         flex-direction: column;
         align-items: center;    
+    }
+    .rev__slider{
+        width: 80%;
     }
     .rev__slider .slick-list{
         height: 50% !important;
         margin-top: 265px;
-        padding: 0 130px !important;
+        padding: 0 90px !important;
     }
     .slick-arrow{
         display: none !important;
@@ -504,12 +615,33 @@
         height: 40% !important;
     }
     .popup__text {
-        width: 75%;
-        height: 30% !important;
+        width: 60%;
+        height: 50% !important;
         font-size: 10px;
     }
+    .popup__text div{
+        width: 290px !important;
+    }
+    .popup__text p {
+        width: 290px;
+    }
+    .Alux{
+        width: 620px;
+    }
+    #A-block{
+        top: 380px;
+    }
+    #T-block{
+        top: 1130px;
+    }
+    #P-block{
+        top: 2200px;
+    }   
 }
 @media screen and (max-width: 640px){
+    body{
+        width: 100ex;
+    }
     header, .main, .about, .team, .portfolio, .footer{
         width: 100ex !important;
     }
@@ -519,22 +651,65 @@
     .main{
         height: 297px !important;
     }
+    .team__block{
+        height: 930px !important;
+    }
+    #A-block{
+        top: 300px;
+    }
+    #T-block{
+        top: 1060px;
+    }
+    #P-block{
+        top: 2110px;
+    }
 }
 
 @media screen and (max-width: 576px){
+    html{
+        width: 107ex !important;
+    }
+    body{
+        width: 112ex !important;
+    }
     header, .main, .about, .team, .portfolio, .footer{
         width: 107.5ex !important;
     }
-    .about__text{
-        width: 500px;
+    .container{
+        width: 560px !important;
     }
-    .team__text{
+    .main__content{
         width: 550px !important;
     }
+    .about__text{
+        width: 560px;
+    }
+    .team__text{
+        width: 560px !important;
+    }
+    .team__text p{
+        font-size: 13px;
+    }
+    .team__block{
+        width: 560px !important;
+        height: 940px !important;
+    }
+    .portfolio{
+        height: 410px !important;
+    }
     .portfolio .slick-slide{
-        width: 300px !important;
+        width: 320px !important;
     }
     .footer__content{
         flex-direction: column;
+    }
+    #A-block{
+        top: 300px;
+    }
+    #T-block{
+        top: 1060px;
+    }
+    #P-block{
+        top: 2110px;
     }
 }

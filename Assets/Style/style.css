@@ -3,6 +3,16 @@
     font-family: 'Montserrat';
     color: #263640;
 }
+body{
+    position: sticky;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
 .container{
     width: 1120px !important;
     height: 100%;
@@ -262,19 +272,28 @@ header .list .link, header .sub-list .sub-link{
     justify-content: space-around;
 }
 .team__arrows{
-    width: 124px;
+    width: 100%;
     height: 48px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin: 146px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 .team__arrows img{
-    width: 12px;
+    width: 24px;
     height: 24px;
 }
+.next, .prev{
+    background: transparent;
+    border: transparent;
+    padding: 0;
+    margin: 0 10px 0 10px;
+}
 .portfolio{
-    height: 1082px;
+    height: 1090px;
 }   
 .portfolio .container{
     display: flex;
@@ -295,9 +314,48 @@ header .list .link, header .sub-list .sub-link{
     width: 352px;
     height: 252px;
 }
-.portfolio__content img:nth-child(3){
-    height: 376px;
+.portfolio .slide{
+    height: 252px;
 }
+.img__block{
+    width: 352px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.img__text{
+    width: 325px;
+    height: 170px;
+    margin-top: -240px;
+    font-size: 15px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    visibility: hidden;
+    transition: all 1s ease;
+    opacity: 0;
+}
+.img__btn{
+    background: transparent;
+    border: transparent;
+    border-bottom: 1px solid #000;
+    
+    font-size: 18px;
+    font-weight: 500;
+}
+.Opened, .Opened1{
+    visibility: visible;
+    margin-top: -70px;
+    transition: all 1s ease;
+    opacity: 1;
+}
+
+
 .footer{
     height: 304px;
     background: #081131;

@@ -183,41 +183,7 @@ $(function(){
     });
 });
 
-$(document).ready(function(){
-    if($(window).width() < 769){
-        $('.rev_slider').slick({
-            infinite: true,
-            slidesToShow: 1 ,
-            SlidesToScroll: 1,
-            adaptiveHeight: true,
-            arrows: false,
-            dots: false,
-            autoplay: false,
-            autoplaySpeed: 3000,
-            centerMode: true,
-            centerPadding: '120px',
-            Speed: 5000,
-            responsive: [
-                {
-                    breakpoint: 576,
-                    settings:{
-                        infinite: true,
-                        slidesToShow: 1 ,
-                        SlidesToScroll: 1,
-                        adaptiveHeight: true,
-                        arrows: false,
-                        dots: false,
-                        autoplay: false,
-                        autoplaySpeed: 3000,
-                        centerMode: true,
-                        centerPadding: '50px',
-                        Speed: 5000,
-                    }
-                },
-            ]
-        });
-    }
-});
+
 
 $(document).ready(function(){
     $('.main .container .main__content button').click(function(){

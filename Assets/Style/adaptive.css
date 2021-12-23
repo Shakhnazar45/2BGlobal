@@ -72,7 +72,7 @@
         width: 100% !important;
     }
     header, .main, .about, .team, .portfolio, .footer{
-        width: 100em !important;
+        width: 1600px !important;
     }
     .slick-list{
         height: 570px !important;
@@ -93,10 +93,13 @@
 }
 @media screen and (max-width: 1440px) {
     html{
-        width: 191ex !important;
+        width: 172ex !important;
     }
     body{
-        width: 199ex;
+        width: 180ex;
+    }
+    header, .main, .about, .team, .portfolio, .footer{
+        width: 1440px !important;
     }
     .container{
         width: 1120px !important;
@@ -150,8 +153,14 @@
     }
 }
 @media screen and (max-width: 1280px) {
+    html{
+        width: 1280px !important;
+    }
     body{
-        width: 200ex;
+        width: 1280px !important;
+    }
+    header, .main, .about, .team, .portfolio, .footer{
+        width: 1280px !important;
     }
     .container{
         width: 1000px !important;
@@ -195,6 +204,9 @@
     .team__text span{
         font-size: 19px;
     }
+    .portfolio{
+        height: 1720px;
+    }
     .portfolio__content img {
         width: 330px;
         height: 250px;
@@ -221,13 +233,13 @@
 
 @media screen and (max-width: 1200px) {
     html{
-        width: 145ex !important;
+        width: 1200px !important;
     }
     body{
-        width: 151ex !important;
+        width: 1200px !important;
     }
     header, .main, .about, .team, .portfolio, .footer{
-        width: 145ex !important;
+        width: 1200px !important;
     }
     .main{
         height: 555px;
@@ -308,13 +320,13 @@
 
 @media screen and (max-width: 1024px) {
     html{
-        width: 125ex !important;
+        width: 1024px !important;
     }
     body{
-        width: 130ex !important;
+        width: 1024px !important;
     }
     header, .main, .about, .team, .portfolio, .footer{
-        width: 125ex !important;
+        width: 1024px !important;
     }
     .container{
         width: 900px !important;
@@ -413,13 +425,13 @@
 }
 @media screen and (max-width: 991px) {
     html{
-        width: 120ex !important;
+        width: 991px !important;
     }
     body{
-        width: 125ex !important;
+        width: 991px !important;
     }
     header, .main, .about, .team, .portfolio, .footer{
-        width: 120ex !important;
+        width: 991px !important;
     }
     .menu{
         visibility: visible;
@@ -516,6 +528,11 @@
     .rev__slider .slick-list{
         margin-top: 0;
     }
+    .rev__slider .slick-arrow::before {
+        width: 25px !important;
+        height: 25px !important;
+        visibility: hidden;
+    }
     .popup__img{
         width: 40%;
     }
@@ -528,7 +545,7 @@
         height: 252px;
     }
     .popup__text{
-        width: 40%;
+        width: 45%;
         font-size: 10px;
     }
     .popup__text div{
@@ -546,16 +563,17 @@
     #P-block{
         top: 2300px;
     }
+    
 }
 @media screen and (max-width: 768px) {
     html{
-        width: 99.61ex !important;
+        width: 768px !important;
     }
     body{
-        width: 104ex !important;   
+        width: 768px !important;   
     }
     header, .main, .about, .team, .portfolio, .footer{
-        width: 100ex !important;
+        width: 768px !important;
     }
     .main{
         height: 355px !important;
@@ -576,14 +594,25 @@
     .team__block{
         height: 930px !important;
     }
-    .portfolio{
-        height: 410px !important;
-    }
     .portfolio .container{
         height: 370px !important;
     }
-    .portfolio .slick-list{
-        height: 100% !important;
+    .portfolio{
+        height: 1300px !important;
+    }
+    .portfolio__content{
+        height: 100%;
+    }
+    .img__block{
+        width: 250px;
+        height: 240px;
+    }
+    .img__text{
+        width: 250px;
+        font-size: 13px;
+    }
+    .img__btn{
+        font-size: 15px;
     }
     .footer__text{
         width: 200px;
@@ -600,30 +629,32 @@
         flex-direction: column;
         align-items: center;    
     }
-    .rev__slider{
-        width: 80%;
+    .rev__slider {
+        width: 65%;
+        height: 65%;
     }
-    .rev__slider .slick-list{
-        height: 50% !important;
+    .rev__slider .slick-list {
+        height: 75% !important;
         margin-top: 265px;
-        padding: 0 90px !important;
+        padding: 0 10px !important;
     }
-    .slick-arrow{
-        display: none !important;
-    }
-    .popup__img {
-        height: 40% !important;
+    .popup__content {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
     }
     .popup__text {
-        width: 60%;
+        width: 100%;
         height: 50% !important;
-        font-size: 10px;
-    }
-    .popup__text div{
-        width: 290px !important;
+        font-size: 18px;
     }
     .popup__text p {
-        width: 290px;
+        width: 390px;
+        font-size: 18px;
+    }
+    .popup__img img {
+        width: 350px !important;
+        height: 250px !important;
     }
     .Alux{
         width: 620px;
@@ -639,11 +670,14 @@
     }   
 }
 @media screen and (max-width: 640px){
+    html{
+        width: 640px !important;
+    }
     body{
-        width: 100ex;
+        width: 640px !important;
     }
     header, .main, .about, .team, .portfolio, .footer{
-        width: 100ex !important;
+        width: 640px !important;
     }
     header .container{
         justify-content: center;
@@ -654,6 +688,23 @@
     .team__block{
         height: 930px !important;
     }
+    .portfolio{
+        height: 1170px !important;
+    }
+    .portfolio__content{
+        height: 100%;
+    }
+    .img__block{
+        width: 250px;
+        height: 210px;
+    }
+    .img__text{
+        width: 250px;
+        font-size: 13px;
+    }
+    .img__btn{
+        font-size: 15px;
+    }
     #A-block{
         top: 300px;
     }
@@ -663,29 +714,62 @@
     #P-block{
         top: 2110px;
     }
+
+    .rev__slider {
+        width: 60%;
+        height: 90%;
+    }
+    .rev__slider .slick-list {
+        height: 75% !important;
+        margin-top: 70px;
+        padding: 0 0 !important;
+    }
+    .popup__content {
+        width: 95%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .popup__text {
+        width: 100%;
+        height: 50% !important;
+        font-size: 18px;
+    }
+    .popup__text p {
+        width: 370px;
+        font-size: 18px;
+    }
+    .popup__img img {
+        width: 350px !important;
+        height: 250px !important;
+    }
+
+
 }
 
 @media screen and (max-width: 576px){
     html{
-        width: 107ex !important;
+        max-width: 576px !important;
     }
     body{
-        width: 112ex !important;
+        max-width: 576px !important;
     }
     header, .main, .about, .team, .portfolio, .footer{
-        width: 107.5ex !important;
+        max-width: 576px !important;
     }
     .container{
-        width: 560px !important;
+        width: 500px !important;
+    }
+    .main{
+        height: 267px !important;
     }
     .main__content{
         width: 550px !important;
     }
     .about__text{
-        width: 560px;
+        width: 500px;
     }
     .team__text{
-        width: 560px !important;
+        width: 480px !important;
     }
     .team__text p{
         font-size: 13px;
@@ -703,6 +787,14 @@
     .footer__content{
         flex-direction: column;
     }
+    .Alux{
+        width: 450px !important;
+    }
+
+    .popup{
+        width: 576px !important;
+    }
+
     #A-block{
         top: 300px;
     }
@@ -711,5 +803,46 @@
     }
     #P-block{
         top: 2110px;
+    }
+}
+@media screen and (max-width: 540px){
+    html{
+        width: 540px !important;
+    }
+    body{
+        width: 540px !important;
+    }
+    header, .main, .about, .team, .portfolio, .footer{
+        width: 100% !important;
+    }
+    .container{
+        width: 480px !important;
+    }
+    .main{
+        height: 250px !important;
+    }
+    .portfolio {
+        height: 1530px !important;
+    }
+    .img__block {
+        width: 200px;
+        height: 300px;
+    }
+    .img__block img {
+        width: 250px;
+        height: 200px;
+    }
+    .img__text {
+        width: 170px;
+        font-size: 11px;
+    }
+    .popup{
+        width: 540px !important;
+    }
+    .about__text, .team__text{
+        width: 480px;
+    }
+    .Alux{
+        width: 450px !important;
     }
 }
